@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -749,7 +749,7 @@
 <gate name="ISP" symbol="ISP" x="25.4" y="0"/>
 </gates>
 <devices>
-<device name="NORMAL" package="ARDUINO-SHIELD-ISP">
+<device name="-NORMAL" package="ARDUINO-SHIELD-ISP">
 <connects>
 <connect gate="ANALOG" pin="A0" pad="A0"/>
 <connect gate="ANALOG" pin="A1" pad="A1"/>
@@ -790,7 +790,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="MINI" package="ARDUINO-SHIELD-MINI-ISP">
+<device name="-MINI" package="ARDUINO-SHIELD-MINI-ISP">
 <connects>
 <connect gate="ANALOG" pin="A0" pad="A0"/>
 <connect gate="ANALOG" pin="A1" pad="A1"/>
@@ -831,7 +831,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="MICRO" package="ARDUINO-SHIELD-MICRO-ISP">
+<device name="-MICRO" package="ARDUINO-SHIELD-MICRO-ISP">
 <connects>
 <connect gate="ANALOG" pin="A0" pad="A0"/>
 <connect gate="ANALOG" pin="A1" pad="A1"/>
@@ -882,7 +882,7 @@
 <gate name="POWER" symbol="POWER" x="25.4" y="0"/>
 </gates>
 <devices>
-<device name="NORMAL" package="ARDUINO-SHIELD">
+<device name="-NORMAL" package="ARDUINO-SHIELD">
 <connects>
 <connect gate="ANALOG" pin="A0" pad="A0"/>
 <connect gate="ANALOG" pin="A1" pad="A1"/>
@@ -917,7 +917,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="MICRO" package="ARDUINO-SHIELD-MICRO">
+<device name="-MICRO" package="ARDUINO-SHIELD-MICRO">
 <connects>
 <connect gate="ANALOG" pin="A0" pad="A0"/>
 <connect gate="ANALOG" pin="A1" pad="A1"/>
@@ -952,7 +952,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="MINI" package="ARDUINO-SHIELD-MINI">
+<device name="-MINI" package="ARDUINO-SHIELD-MINI">
 <connects>
 <connect gate="ANALOG" pin="A0" pad="A0"/>
 <connect gate="ANALOG" pin="A1" pad="A1"/>
@@ -997,7 +997,7 @@
 <gate name="POWER" symbol="POWER" x="25.4" y="0"/>
 </gates>
 <devices>
-<device name="NORMAL" package="ARDUINO-SHIELD-SIMPLE">
+<device name="-NORMAL" package="ARDUINO-SHIELD-SIMPLE">
 <connects>
 <connect gate="ANALOG" pin="A0" pad="A0"/>
 <connect gate="ANALOG" pin="A1" pad="A1"/>
@@ -1032,7 +1032,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="MINI" package="ARDUINO-SHIELD-SIMPLE-MINI">
+<device name="-MINI" package="ARDUINO-SHIELD-SIMPLE-MINI">
 <connects>
 <connect gate="ANALOG" pin="A0" pad="A0"/>
 <connect gate="ANALOG" pin="A1" pad="A1"/>
@@ -1067,7 +1067,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="MICRO" package="ARDUINO-SHIELD-SIMPLE-MICRO">
+<device name="-MICRO" package="ARDUINO-SHIELD-SIMPLE-MICRO">
 <connects>
 <connect gate="ANALOG" pin="A0" pad="A0"/>
 <connect gate="ANALOG" pin="A1" pad="A1"/>
@@ -1113,7 +1113,7 @@
 <gate name="POWER" symbol="POWER" x="43.18" y="0"/>
 </gates>
 <devices>
-<device name="NORMAL" package="ARDUINO-SHIELD-SIMPLE-ISP">
+<device name="-NORMAL" package="ARDUINO-SHIELD-SIMPLE-ISP">
 <connects>
 <connect gate="ANALOG" pin="A0" pad="A0"/>
 <connect gate="ANALOG" pin="A1" pad="A1"/>
@@ -1154,7 +1154,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="MINI" package="ARDUINO-SHIELD-SIMPLE-MINI-ISP">
+<device name="-MINI" package="ARDUINO-SHIELD-SIMPLE-MINI-ISP">
 <connects>
 <connect gate="ANALOG" pin="A0" pad="A0"/>
 <connect gate="ANALOG" pin="A1" pad="A1"/>
@@ -1195,7 +1195,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="MICRO" package="ARDUINO-SHIELD-SIMPLE-MICRO-ISP">
+<device name="-MICRO" package="ARDUINO-SHIELD-SIMPLE-MICRO-ISP">
 <connects>
 <connect gate="ANALOG" pin="A0" pad="A0"/>
 <connect gate="ANALOG" pin="A1" pad="A1"/>
