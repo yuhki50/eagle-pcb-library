@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -86,6 +86,20 @@
 <circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
 <hole x="0" y="0" drill="3.3"/>
 </package>
+<package name="2,2">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.2 mm with drill center</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1.34" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="2.2"/>
+</package>
 <package name="2,5">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.5 mm with drill center</description>
 <wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
@@ -140,8 +154,22 @@
 <circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
 <pad name="B3,3" x="0" y="0" drill="3.3" diameter="5.842"/>
 </package>
+<package name="2,2-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.2 mm, round</description>
+<wire x1="0" y1="2.921" x2="0" y2="2.667" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.667" x2="0" y2="-2.921" width="0.0508" layer="21"/>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="3.175" width="0.8128" layer="39"/>
+<circle x="0" y="0" radius="3.175" width="0.8128" layer="40"/>
+<circle x="0" y="0" radius="3.175" width="0.8128" layer="43"/>
+<circle x="0" y="0" radius="1.34" width="0.2032" layer="21"/>
+<pad name="B2,2" x="0" y="0" drill="2.2" diameter="5.334"/>
+</package>
 <package name="2,5-PAD">
-<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.8 mm, round</description>
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.5 mm, round</description>
 <wire x1="0" y1="2.921" x2="0" y2="2.667" width="0.0508" layer="21"/>
 <wire x1="0" y1="-2.667" x2="0" y2="-2.921" width="0.0508" layer="21"/>
 <wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
@@ -418,8 +446,32 @@
 <circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
 <pad name="B3,2" x="0" y="0" drill="3.2" diameter="5.842" shape="square"/>
 </package>
+<package name="2,2-PAD-SQUARE">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.2 mm, square</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<wire x1="-3.556" y1="3.556" x2="3.556" y2="3.556" width="1.016" layer="43"/>
+<wire x1="3.556" y1="3.556" x2="3.556" y2="-3.556" width="1.016" layer="43"/>
+<wire x1="3.556" y1="-3.556" x2="-3.556" y2="-3.556" width="1.016" layer="43"/>
+<wire x1="-3.556" y1="-3.556" x2="-3.556" y2="3.556" width="1.016" layer="43"/>
+<wire x1="-3.556" y1="3.556" x2="3.556" y2="3.556" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="3.556" x2="3.556" y2="-3.556" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-3.556" x2="-3.556" y2="-3.556" width="0.1524" layer="21"/>
+<wire x1="-3.556" y1="-3.556" x2="-3.556" y2="3.556" width="0.1524" layer="21"/>
+<wire x1="-3.556" y1="3.556" x2="3.556" y2="3.556" width="1.016" layer="39"/>
+<wire x1="3.556" y1="3.556" x2="3.556" y2="-3.556" width="1.016" layer="39"/>
+<wire x1="3.556" y1="-3.556" x2="-3.556" y2="-3.556" width="1.016" layer="39"/>
+<wire x1="-3.556" y1="-3.556" x2="-3.556" y2="3.556" width="1.016" layer="39"/>
+<wire x1="-3.556" y1="3.556" x2="3.556" y2="3.556" width="1.016" layer="40"/>
+<wire x1="3.556" y1="3.556" x2="3.556" y2="-3.556" width="1.016" layer="40"/>
+<wire x1="3.556" y1="-3.556" x2="-3.556" y2="-3.556" width="1.016" layer="40"/>
+<wire x1="-3.556" y1="-3.556" x2="-3.556" y2="3.556" width="1.016" layer="40"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="1.34" width="0.2032" layer="21"/>
+<pad name="B2,2" x="0" y="0" drill="2.2" diameter="5.842" shape="square"/>
+</package>
 <package name="2,5-PAD-SQUARE">
-<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.8 mm, square</description>
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 2.5 mm, square</description>
 <wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
 <wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
 <wire x1="-3.556" y1="3.556" x2="3.556" y2="3.556" width="1.016" layer="43"/>
@@ -727,6 +779,11 @@
 <gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
 </gates>
 <devices>
+<device name="2.2" package="2,2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 <device name="2.5" package="2,5">
 <technologies>
 <technology name=""/>
@@ -790,6 +847,14 @@
 <gate name="G$1" symbol="MOUNT-PAD" x="0" y="0"/>
 </gates>
 <devices>
+<device name="2.2" package="2,2-PAD">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B2,2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 <device name="2.5" package="2,5-PAD">
 <connects>
 <connect gate="G$1" pin="MOUNT" pad="B2,5"/>
@@ -886,6 +951,14 @@
 <gate name="G$1" symbol="MOUNT-PAD-SQUARE" x="0" y="0"/>
 </gates>
 <devices>
+<device name="2.2" package="2,2-PAD-SQUARE">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B2,2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 <device name="2.5" package="2,5-PAD-SQUARE">
 <connects>
 <connect gate="G$1" pin="MOUNT" pad="B2,5"/>
