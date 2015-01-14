@@ -76,10 +76,10 @@
 &lt;/p&gt;</description>
 <packages>
 <package name="1-POLE-WITHOUT-FIXATION-PIN">
-<wire x1="7.8" y1="7.8" x2="7.8" y2="-7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="7.8" x2="7.8" y2="7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="7.8" x2="-7.8" y2="-7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="-7.8" x2="7.8" y2="-7.8" width="0.127" layer="51"/>
+<wire x1="7.8" y1="7.8" x2="7.8" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="7.8" x2="7.8" y2="7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="7.8" x2="-7.8" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="-7.8" x2="7.8" y2="-7.8" width="0.127" layer="21"/>
 <text x="-8" y="8.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-8" y="-9.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <hole x="0" y="0" drill="4"/>
@@ -87,10 +87,10 @@
 <pad name="SW2" x="2.54" y="5.08" drill="1.5"/>
 </package>
 <package name="1-POLE-W/LED-WITHOUT-FIXATION-PIN">
-<wire x1="7.8" y1="7.8" x2="7.8" y2="-7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="7.8" x2="7.8" y2="7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="7.8" x2="-7.8" y2="-7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="-7.8" x2="7.8" y2="-7.8" width="0.127" layer="51"/>
+<wire x1="7.8" y1="7.8" x2="7.8" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="7.8" x2="7.8" y2="7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="7.8" x2="-7.8" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="-7.8" x2="7.8" y2="-7.8" width="0.127" layer="21"/>
 <text x="-8" y="8.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-8" y="-9.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <hole x="0" y="0" drill="4"/>
@@ -100,10 +100,10 @@
 <pad name="LED_C" x="1.27" y="-5.08" drill="1"/>
 </package>
 <package name="1-POLE-W/DIODE-WITHOUT-FIXATION-PIN">
-<wire x1="7.8" y1="7.8" x2="7.8" y2="-7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="7.8" x2="7.8" y2="7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="7.8" x2="-7.8" y2="-7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="-7.8" x2="7.8" y2="-7.8" width="0.127" layer="51"/>
+<wire x1="7.8" y1="7.8" x2="7.8" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="7.8" x2="7.8" y2="7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="7.8" x2="-7.8" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="-7.8" x2="7.8" y2="-7.8" width="0.127" layer="21"/>
 <text x="-8" y="8.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-8" y="-9.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <hole x="0" y="0" drill="4"/>
@@ -113,10 +113,10 @@
 <pad name="DIODE_C" x="3.81" y="-5.08" drill="1"/>
 </package>
 <package name="1-POLE-WITH-FIXATION-PIN">
-<wire x1="7.8" y1="7.8" x2="7.8" y2="-7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="7.8" x2="7.8" y2="7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="7.8" x2="-7.8" y2="-7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="-7.8" x2="7.8" y2="-7.8" width="0.127" layer="51"/>
+<wire x1="7.8" y1="7.8" x2="7.8" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="7.8" x2="7.8" y2="7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="7.8" x2="-7.8" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="-7.8" x2="7.8" y2="-7.8" width="0.127" layer="21"/>
 <text x="-8" y="8.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-8" y="-9.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <hole x="0" y="0" drill="4"/>
@@ -126,10 +126,10 @@
 <hole x="5.08" y="0" drill="1.7"/>
 </package>
 <package name="1-POLE-W/LED-WITH-FIXATION-PIN">
-<wire x1="7.8" y1="7.8" x2="7.8" y2="-7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="7.8" x2="7.8" y2="7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="7.8" x2="-7.8" y2="-7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="-7.8" x2="7.8" y2="-7.8" width="0.127" layer="51"/>
+<wire x1="7.8" y1="7.8" x2="7.8" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="7.8" x2="7.8" y2="7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="7.8" x2="-7.8" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="-7.8" x2="7.8" y2="-7.8" width="0.127" layer="21"/>
 <text x="-8" y="8.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-8" y="-9.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <hole x="0" y="0" drill="4"/>
@@ -141,10 +141,10 @@
 <hole x="5.08" y="0" drill="1.7"/>
 </package>
 <package name="1-POLE-W/DIODE-WITH-FIXATION-PIN">
-<wire x1="7.8" y1="7.8" x2="7.8" y2="-7.8" width="0.127" layer="51"/>
-<wire x1="7.8" y1="7.8" x2="-7.8" y2="7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="7.8" x2="-7.8" y2="-7.8" width="0.127" layer="51"/>
-<wire x1="-7.8" y1="-7.8" x2="7.8" y2="-7.8" width="0.127" layer="51"/>
+<wire x1="7.8" y1="7.8" x2="7.8" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="7.8" y1="7.8" x2="-7.8" y2="7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="7.8" x2="-7.8" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-7.8" y1="-7.8" x2="7.8" y2="-7.8" width="0.127" layer="21"/>
 <text x="-8" y="8.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-8" y="-9.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <hole x="0" y="0" drill="4"/>
