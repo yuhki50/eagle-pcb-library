@@ -167,17 +167,17 @@
 </deviceset>
 <deviceset name="KMR2*G" prefix="SW" uservalue="yes">
 <gates>
-<gate name="1" symbol="SW" x="0" y="0"/>
+<gate name="S" symbol="SW" x="0" y="0"/>
 <gate name="G$1" symbol="SHIELD" x="2.54" y="0" addlevel="always"/>
 </gates>
 <devices>
 <device name="" package="KMR2*G*">
 <connects>
-<connect gate="1" pin="P" pad="1"/>
-<connect gate="1" pin="P1" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-<connect gate="1" pin="S1" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
+<connect gate="S" pin="P" pad="1"/>
+<connect gate="S" pin="P1" pad="2"/>
+<connect gate="S" pin="S" pad="3"/>
+<connect gate="S" pin="S1" pad="4"/>
 </connects>
 <technologies>
 <technology name="11"/>
