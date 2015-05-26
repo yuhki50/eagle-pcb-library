@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -74,7 +74,7 @@
 &lt;author&gt;Created by yuhki50@gmail.com&lt;/author&gt;
 &lt;/p&gt;</description>
 <packages>
-<package name="SO-8">
+<package name="SO-8-SINGLE">
 <wire x1="-1.8034" y1="2.3622" x2="-1.8034" y2="-2.3622" width="0.127" layer="21"/>
 <wire x1="-1.8034" y1="-2.3622" x2="1.8034" y2="-2.3622" width="0.127" layer="21"/>
 <wire x1="1.8034" y1="-2.3622" x2="1.8034" y2="2.3622" width="0.127" layer="21"/>
@@ -108,6 +108,29 @@
 <rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+<package name="SO-8-DUAL">
+<wire x1="-1.8034" y1="2.3622" x2="-1.8034" y2="-2.3622" width="0.127" layer="21"/>
+<wire x1="-1.8034" y1="-2.3622" x2="1.8034" y2="-2.3622" width="0.127" layer="21"/>
+<wire x1="1.8034" y1="-2.3622" x2="1.8034" y2="2.3622" width="0.127" layer="21"/>
+<wire x1="1.8034" y1="2.3622" x2="-1.8034" y2="2.3622" width="0.127" layer="21"/>
+<circle x="-1.2446" y="1.8034" radius="0.3556" width="0.0508" layer="21"/>
+<smd name="1" x="-2.7432" y="1.905" dx="1.524" dy="0.6096" layer="1"/>
+<smd name="7_8" x="2.7432" y="1.27" dx="1.524" dy="1.9812" layer="1"/>
+<smd name="2" x="-2.7432" y="0.635" dx="1.524" dy="0.6096" layer="1"/>
+<smd name="3" x="-2.7432" y="-0.635" dx="1.524" dy="0.6096" layer="1"/>
+<smd name="5_6" x="2.7432" y="-1.27" dx="1.524" dy="1.8796" layer="1"/>
+<smd name="4" x="-2.7432" y="-1.905" dx="1.524" dy="0.6096" layer="1"/>
+<text x="-2.032" y="-4.0005" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.032" y="2.7305" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<rectangle x1="-2.8702" y1="1.7272" x2="-1.8542" y2="2.0828" layer="51"/>
+<rectangle x1="-2.8702" y1="0.4572" x2="-1.8542" y2="0.8128" layer="51"/>
+<rectangle x1="-2.8702" y1="-0.8128" x2="-1.8542" y2="-0.4572" layer="51"/>
+<rectangle x1="-2.8702" y1="-2.0828" x2="-1.8542" y2="-1.7272" layer="51"/>
+<rectangle x1="1.8542" y1="1.7272" x2="2.8702" y2="2.0828" layer="51"/>
+<rectangle x1="1.8542" y1="0.4572" x2="2.8702" y2="0.8128" layer="51"/>
+<rectangle x1="1.8542" y1="-0.8128" x2="2.8702" y2="-0.4572" layer="51"/>
+<rectangle x1="1.8542" y1="-2.0828" x2="2.8702" y2="-1.7272" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -178,13 +201,16 @@
 <deviceset name="IRF7809AVPBF" prefix="T">
 <description>&lt;b&gt;N-Channel Application-Specific MOSFETs&lt;/b&gt;
 &lt;p&gt;
-Source: http://www.irf.com/product-info/datasheets/data/irf7809avpbf.pdf
+Source:
+&lt;ul&gt;
+&lt;li&gt;http://www.irf.com/product-info/datasheets/data/irf7809avpbf.pdf&lt;/li&gt;
+&lt;ul&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SO-8">
+<device name="" package="SO-8-SINGLE">
 <connects>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="2"/>
@@ -199,7 +225,10 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7809avpbf.pdf
 <deviceset name="IRLML6344TRPBF" prefix="T">
 <description>&lt;b&gt;N-Channel Application-Specific MOSFETs&lt;/b&gt;
 &lt;p&gt;
-Source: http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf
+Source:
+&lt;ul&gt;
+&lt;li&gt;http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf&lt;/li&gt;
+&lt;ul&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
@@ -210,6 +239,34 @@ Source: http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRL6372PBF" prefix="T">
+<description>&lt;b&gt;N-Channel Application-Specific MOSFETs&lt;/b&gt;
+&lt;p&gt;
+Source:
+&lt;ul&gt;
+&lt;li&gt;http://www.irf.com/product-info/datasheets/data/irl6372pbf.pdf&lt;/li&gt;
+&lt;ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="A" symbol="N_MOSFET" x="0" y="7.62"/>
+<gate name="B" symbol="N_MOSFET" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SO-8-DUAL">
+<connects>
+<connect gate="A" pin="D" pad="7_8"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="5_6"/>
+<connect gate="B" pin="G" pad="4"/>
+<connect gate="B" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
