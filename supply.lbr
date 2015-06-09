@@ -112,7 +112,7 @@
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="+7.2V">
+<symbol name="+7.4V">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
@@ -178,7 +178,7 @@
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="-5V" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="-7.2V">
+<symbol name="-7.4V">
 <wire x1="-1.27" y1="1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="1.27" y2="1.905" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
@@ -299,9 +299,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="+7.2V" prefix="P+">
+<deviceset name="+7.4V" prefix="P+">
 <gates>
-<gate name="G$1" symbol="+7.2V" x="0" y="0"/>
+<gate name="G$1" symbol="+7.4V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -431,9 +431,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="-7.2V" prefix="P+">
+<deviceset name="-7.4V" prefix="P+">
 <gates>
-<gate name="G$1" symbol="-7.2V" x="0" y="0"/>
+<gate name="G$1" symbol="-7.4V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
