@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -92,6 +92,24 @@
 <hole x="-5.715" y="0" drill="3.2"/>
 <hole x="5.715" y="0" drill="3.2"/>
 <wire x1="-7.875" y1="5" x2="7.875" y2="5" width="0" layer="51"/>
+</package>
+<package name="69255-001LF">
+<wire x1="7.62" y1="6.47" x2="7.62" y2="-9.91" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-9.91" x2="-7.62" y2="-9.91" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-9.91" x2="-7.62" y2="6.47" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="6.47" x2="7.62" y2="6.47" width="0.1524" layer="21"/>
+<pad name="8" x="4.445" y="-6.35" drill="0.9" diameter="1.4224"/>
+<pad name="7" x="3.175" y="-8.89" drill="0.9" diameter="1.4224"/>
+<pad name="6" x="1.905" y="-6.35" drill="0.9" diameter="1.4224"/>
+<pad name="5" x="0.635" y="-8.89" drill="0.9" diameter="1.4224"/>
+<pad name="4" x="-0.635" y="-6.35" drill="0.9" diameter="1.4224"/>
+<pad name="3" x="-1.905" y="-8.89" drill="0.9" diameter="1.4224"/>
+<pad name="2" x="-3.175" y="-6.35" drill="0.9" diameter="1.4224"/>
+<pad name="1" x="-4.445" y="-8.89" drill="0.9" diameter="1.4224"/>
+<text x="-7" y="-12" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7" y="7.5" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="-5.715" y="0" drill="3.25"/>
+<hole x="5.715" y="0" drill="3.25"/>
 </package>
 <package name="20021221-00010C4LF">
 <wire x1="-2.286" y1="0.381" x2="-2.286" y2="0.889" width="0.1016" layer="51"/>
@@ -329,6 +347,35 @@ Source:
 </gates>
 <devices>
 <device name="" package="54602-908LF">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="69255-001LF" prefix="X">
+<description>&lt;b&gt;Mod. Jack, Vertical Angle, 8 posiotion, 8 contatcs RJ45&lt;/b&gt;
+&lt;p&gt;
+Source:
+&lt;ul&gt;
+&lt;li&gt;http://portal.fciconnect.com/Comergent//fci/drawing/69255.pdf&lt;/li&gt;
+&lt;ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="JACK8SH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="69255-001LF">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
