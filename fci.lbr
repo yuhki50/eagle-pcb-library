@@ -222,6 +222,7 @@
 <vertex x="-6.325" y="-1"/>
 <vertex x="-6.825" y="-1"/>
 </polygon>
+<wire x1="-3.175" y1="-2.55" x2="-6.325" y2="-2.55" width="0.1" layer="21"/>
 </package>
 <package name="20021221-00010C4LF">
 <wire x1="-2.286" y1="0.381" x2="-2.286" y2="0.889" width="0.1" layer="51"/>
