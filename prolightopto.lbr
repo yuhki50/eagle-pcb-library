@@ -144,7 +144,7 @@
 <wire x1="1" y1="2" x2="2" y2="2" width="0.1" layer="21"/>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1" layer="21"/>
 <circle x="1.5" y="2.5" radius="0.15" width="0.3" layer="21"/>
-<wire x1="1" y1="2" x2="2" y2="1" width="0.1" layer="21"/>
+<wire x1="1" y1="2" x2="2" y2="1" width="0.1" layer="51"/>
 </package>
 </packages>
 <symbols>
