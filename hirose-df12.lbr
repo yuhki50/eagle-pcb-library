@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -109,8 +109,8 @@
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="3.6" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-3.6" x2="-1.9" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-3.6" x2="1.9" y2="-2.5" width="0.127" layer="21"/>
-<circle x="3" y="3.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-3.3" x2="0.9" y2="3.3" layer="39"/>
+<circle x="3" y="3.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-10DP-0.5V">
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="-1.25" width="0.127" layer="51"/>
@@ -137,9 +137,9 @@
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="2.35" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-2.35" x2="-1.9" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-2.35" x2="1.9" y2="-1.25" width="0.127" layer="21"/>
-<circle x="3" y="2.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
+<circle x="3" y="2.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-14DP-0.5V">
 <wire x1="-1.9" y1="1.75" x2="-1.9" y2="-1.75" width="0.127" layer="51"/>
@@ -170,8 +170,8 @@
 <smd name="11" x="1.8" y="-1" dx="1.6" dy="0.3" layer="1"/>
 <smd name="13" x="1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="14" x="-1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="2.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.55" x2="0.9" y2="2.55" layer="39"/>
+<circle x="3" y="2.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-30DP-0.5V">
 <wire x1="-1.9" y1="3.75" x2="-1.9" y2="-3.75" width="0.127" layer="51"/>
@@ -218,8 +218,8 @@
 <smd name="28" x="-1.8" y="-3" dx="1.6" dy="0.3" layer="1"/>
 <smd name="29" x="1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="30" x="-1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="4.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.55" x2="0.9" y2="4.55" layer="39"/>
+<circle x="3" y="4.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-32DP-0.5V">
 <wire x1="-1.9" y1="4" x2="-1.9" y2="-4" width="0.127" layer="51"/>
@@ -268,8 +268,8 @@
 <smd name="30" x="-1.8" y="-3.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="31" x="1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="32" x="-1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="4.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.8" x2="0.9" y2="4.8" layer="39"/>
+<circle x="3" y="5.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-36DP-0.5V">
 <wire x1="-1.9" y1="4.5" x2="-1.9" y2="-4.5" width="0.127" layer="51"/>
@@ -322,8 +322,8 @@
 <smd name="34" x="-1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="35" x="1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="36" x="-1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="5.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.3" x2="0.9" y2="5.3" layer="39"/>
+<circle x="3" y="5.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-40DP-0.5V">
 <wire x1="-1.9" y1="5" x2="-1.9" y2="-5" width="0.127" layer="51"/>
@@ -380,8 +380,8 @@
 <smd name="38" x="-1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="39" x="1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="40" x="-1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="5.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.8" x2="0.9" y2="5.8" layer="39"/>
+<circle x="3" y="6.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-50DP-0.5V">
 <wire x1="-1.9" y1="6.25" x2="-1.9" y2="-6.25" width="0.127" layer="51"/>
@@ -448,8 +448,8 @@
 <smd name="48" x="-1.8" y="-5.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="49" x="1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
 <smd name="50" x="-1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="7.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-7.05" x2="0.9" y2="7.05" layer="39"/>
+<circle x="3" y="7.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-60DP-0.5V">
 <wire x1="-1.9" y1="7.5" x2="-1.9" y2="-7.5" width="0.127" layer="51"/>
@@ -526,8 +526,8 @@
 <smd name="58" x="-1.8" y="-6.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="59" x="1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="60" x="-1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="8.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-8.3" x2="0.9" y2="8.3" layer="39"/>
+<circle x="3" y="8.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-80DP-0.5V">
 <wire x1="-1.9" y1="10" x2="-1.9" y2="-10" width="0.127" layer="51"/>
@@ -624,8 +624,8 @@
 <smd name="78" x="-1.8" y="-9.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="79" x="1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="80" x="-1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="10.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-10.8" x2="0.9" y2="10.8" layer="39"/>
+<circle x="3" y="11.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12D(*)-10DP-0.5V">
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="-1.25" width="0.127" layer="51"/>
@@ -650,9 +650,9 @@
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="2.35" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-2.35" x2="-1.9" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-2.35" x2="1.9" y2="-1.25" width="0.127" layer="21"/>
-<circle x="3" y="2.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
+<circle x="3" y="2.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12D(*)-14DP-0.5V">
 <wire x1="-1.9" y1="1.75" x2="-1.9" y2="-1.75" width="0.127" layer="51"/>
@@ -681,8 +681,8 @@
 <smd name="11" x="1.8" y="-1" dx="1.6" dy="0.3" layer="1"/>
 <smd name="13" x="1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="14" x="-1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="2.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.55" x2="0.9" y2="2.55" layer="39"/>
+<circle x="3" y="2.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12D(*)-20DP-0.5V">
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="-2.5" width="0.127" layer="51"/>
@@ -717,8 +717,8 @@
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="3.6" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-3.6" x2="-1.9" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-3.6" x2="1.9" y2="-2.5" width="0.127" layer="21"/>
-<circle x="3" y="3.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-3.3" x2="0.9" y2="3.3" layer="39"/>
+<circle x="3" y="3.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12D(*)-30DP-0.5V">
 <wire x1="-1.9" y1="3.75" x2="-1.9" y2="-3.75" width="0.127" layer="51"/>
@@ -763,8 +763,8 @@
 <smd name="28" x="-1.8" y="-3" dx="1.6" dy="0.3" layer="1"/>
 <smd name="29" x="1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="30" x="-1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="4.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.55" x2="0.9" y2="4.55" layer="39"/>
+<circle x="3" y="4.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12D(*)-32DP-0.5V">
 <wire x1="-1.9" y1="4" x2="-1.9" y2="-4" width="0.127" layer="51"/>
@@ -811,8 +811,8 @@
 <smd name="30" x="-1.8" y="-3.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="31" x="1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="32" x="-1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="4.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.8" x2="0.9" y2="4.8" layer="39"/>
+<circle x="3" y="5.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12D(*)-36DP-0.5V">
 <wire x1="-1.9" y1="4.5" x2="-1.9" y2="-4.5" width="0.127" layer="51"/>
@@ -863,8 +863,8 @@
 <smd name="34" x="-1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="35" x="1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="36" x="-1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="5.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.3" x2="0.9" y2="5.3" layer="39"/>
+<circle x="3" y="5.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12D(*)-40DP-0.5V">
 <wire x1="-1.9" y1="5" x2="-1.9" y2="-5" width="0.127" layer="51"/>
@@ -919,8 +919,8 @@
 <smd name="38" x="-1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="39" x="1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="40" x="-1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="5.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.8" x2="0.9" y2="5.8" layer="39"/>
+<circle x="3" y="6.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12D(*)-50DP-0.5V">
 <wire x1="-1.9" y1="6.25" x2="-1.9" y2="-6.25" width="0.127" layer="51"/>
@@ -985,8 +985,8 @@
 <smd name="48" x="-1.8" y="-5.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="49" x="1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
 <smd name="50" x="-1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="7.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-7.05" x2="0.9" y2="7.05" layer="39"/>
+<circle x="3" y="7.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12D(*)-60DP-0.5V">
 <wire x1="-1.9" y1="7.5" x2="-1.9" y2="-7.5" width="0.127" layer="51"/>
@@ -1061,8 +1061,8 @@
 <smd name="58" x="-1.8" y="-6.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="59" x="1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="60" x="-1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="8.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-8.3" x2="0.9" y2="8.3" layer="39"/>
+<circle x="3" y="8.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12D(*)-80DP-0.5V">
 <wire x1="-1.9" y1="10" x2="-1.9" y2="-10" width="0.127" layer="51"/>
@@ -1157,8 +1157,8 @@
 <smd name="78" x="-1.8" y="-9.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="79" x="1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="80" x="-1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="10.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-10.8" x2="0.9" y2="10.8" layer="39"/>
+<circle x="3" y="11.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12E(*)-10DP-0.5V">
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="-1.25" width="0.127" layer="51"/>
@@ -1181,9 +1181,9 @@
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="2.35" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-2.35" x2="-1.9" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-2.35" x2="1.9" y2="-1.25" width="0.127" layer="21"/>
-<circle x="3" y="2.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
+<circle x="3" y="2.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12E(*)-14DP-0.5V">
 <wire x1="-1.9" y1="1.75" x2="-1.9" y2="-1.75" width="0.127" layer="51"/>
@@ -1210,8 +1210,8 @@
 <smd name="11" x="1.8" y="-1" dx="1.6" dy="0.3" layer="1"/>
 <smd name="13" x="1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="14" x="-1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="2.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.55" x2="0.9" y2="2.55" layer="39"/>
+<circle x="3" y="2.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12E(*)-20DP-0.5V">
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="-2.5" width="0.127" layer="51"/>
@@ -1244,8 +1244,8 @@
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="3.6" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-3.6" x2="-1.9" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-3.6" x2="1.9" y2="-2.5" width="0.127" layer="21"/>
-<circle x="3" y="3.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-3.3" x2="0.9" y2="3.3" layer="39"/>
+<circle x="3" y="3.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12E(*)-30DP-0.5V">
 <wire x1="-1.9" y1="3.75" x2="-1.9" y2="-3.75" width="0.127" layer="51"/>
@@ -1288,8 +1288,8 @@
 <smd name="28" x="-1.8" y="-3" dx="1.6" dy="0.3" layer="1"/>
 <smd name="29" x="1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="30" x="-1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="4.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.55" x2="0.9" y2="4.55" layer="39"/>
+<circle x="3" y="4.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12E(*)-32DP-0.5V">
 <wire x1="-1.9" y1="4" x2="-1.9" y2="-4" width="0.127" layer="51"/>
@@ -1334,8 +1334,8 @@
 <smd name="30" x="-1.8" y="-3.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="31" x="1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="32" x="-1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="4.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.8" x2="0.9" y2="4.8" layer="39"/>
+<circle x="3" y="5.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12E(*)-36DP-0.5V">
 <wire x1="-1.9" y1="4.5" x2="-1.9" y2="-4.5" width="0.127" layer="51"/>
@@ -1384,8 +1384,8 @@
 <smd name="34" x="-1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="35" x="1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="36" x="-1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="5.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.3" x2="0.9" y2="5.3" layer="39"/>
+<circle x="3" y="5.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12E(*)-40DP-0.5V">
 <wire x1="-1.9" y1="5" x2="-1.9" y2="-5" width="0.127" layer="51"/>
@@ -1438,8 +1438,8 @@
 <smd name="38" x="-1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="39" x="1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="40" x="-1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="5.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.8" x2="0.9" y2="5.8" layer="39"/>
+<circle x="3" y="6.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12E(*)-50DP-0.5V">
 <wire x1="-1.9" y1="6.25" x2="-1.9" y2="-6.25" width="0.127" layer="51"/>
@@ -1502,8 +1502,8 @@
 <smd name="48" x="-1.8" y="-5.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="49" x="1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
 <smd name="50" x="-1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="7.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-7.05" x2="0.9" y2="7.05" layer="39"/>
+<circle x="3" y="7.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12E(*)-60DP-0.5V">
 <wire x1="-1.9" y1="7.5" x2="-1.9" y2="-7.5" width="0.127" layer="51"/>
@@ -1576,8 +1576,8 @@
 <smd name="58" x="-1.8" y="-6.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="59" x="1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="60" x="-1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="8.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-8.3" x2="0.9" y2="8.3" layer="39"/>
+<circle x="3" y="8.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12E(*)-80DP-0.5V">
 <wire x1="-1.9" y1="10" x2="-1.9" y2="-10" width="0.127" layer="51"/>
@@ -1670,8 +1670,8 @@
 <smd name="78" x="-1.8" y="-9.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="79" x="1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="80" x="-1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="10.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-10.8" x2="0.9" y2="10.8" layer="39"/>
+<circle x="3" y="11.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-10DP-0.5V">
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="-1.25" width="0.127" layer="51"/>
@@ -1696,9 +1696,9 @@
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="2.35" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-2.35" x2="-1.9" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-2.35" x2="1.9" y2="-1.25" width="0.127" layer="21"/>
-<circle x="3" y="2.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
+<circle x="3" y="2.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-14DP-0.5V">
 <wire x1="-1.9" y1="1.75" x2="-1.9" y2="-1.75" width="0.127" layer="51"/>
@@ -1727,8 +1727,8 @@
 <smd name="11" x="1.8" y="-1" dx="1.6" dy="0.3" layer="1"/>
 <smd name="13" x="1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="14" x="-1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="2.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.55" x2="0.9" y2="2.55" layer="39"/>
+<circle x="3" y="2.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-20DP-0.5V">
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="-2.5" width="0.127" layer="51"/>
@@ -1763,8 +1763,8 @@
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="3.6" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-3.6" x2="-1.9" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-3.6" x2="1.9" y2="-2.5" width="0.127" layer="21"/>
-<circle x="3" y="3.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-3.3" x2="0.9" y2="3.3" layer="39"/>
+<circle x="3" y="3.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-30DP-0.5V">
 <wire x1="-1.9" y1="3.75" x2="-1.9" y2="-3.75" width="0.127" layer="51"/>
@@ -1809,8 +1809,8 @@
 <smd name="28" x="-1.8" y="-3" dx="1.6" dy="0.3" layer="1"/>
 <smd name="29" x="1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="30" x="-1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="4.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.55" x2="0.9" y2="4.55" layer="39"/>
+<circle x="3" y="4.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-32DP-0.5V">
 <wire x1="-1.9" y1="4" x2="-1.9" y2="-4" width="0.127" layer="51"/>
@@ -1857,8 +1857,8 @@
 <smd name="30" x="-1.8" y="-3.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="31" x="1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="32" x="-1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="4.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.8" x2="0.9" y2="4.8" layer="39"/>
+<circle x="3" y="5.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-36DP-0.5V">
 <wire x1="-1.9" y1="4.5" x2="-1.9" y2="-4.5" width="0.127" layer="51"/>
@@ -1909,8 +1909,8 @@
 <smd name="34" x="-1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="35" x="1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="36" x="-1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="5.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.3" x2="0.9" y2="5.3" layer="39"/>
+<circle x="3" y="5.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-40DP-0.5V">
 <wire x1="-1.9" y1="5" x2="-1.9" y2="-5" width="0.127" layer="51"/>
@@ -1965,8 +1965,8 @@
 <smd name="38" x="-1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="39" x="1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="40" x="-1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="5.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.8" x2="0.9" y2="5.8" layer="39"/>
+<circle x="3" y="6.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-50DP-0.5V">
 <wire x1="-1.9" y1="6.25" x2="-1.9" y2="-6.25" width="0.127" layer="51"/>
@@ -2031,8 +2031,8 @@
 <smd name="48" x="-1.8" y="-5.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="49" x="1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
 <smd name="50" x="-1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="7.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-7.05" x2="0.9" y2="7.05" layer="39"/>
+<circle x="3" y="7.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-60DP-0.5V">
 <wire x1="-1.9" y1="7.5" x2="-1.9" y2="-7.5" width="0.127" layer="51"/>
@@ -2107,8 +2107,8 @@
 <smd name="58" x="-1.8" y="-6.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="59" x="1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="60" x="-1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="8.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-8.3" x2="0.9" y2="8.3" layer="39"/>
+<circle x="3" y="8.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-80DP-0.5V">
 <wire x1="-1.9" y1="10" x2="-1.9" y2="-10" width="0.127" layer="51"/>
@@ -2203,8 +2203,8 @@
 <smd name="78" x="-1.8" y="-9.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="79" x="1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="80" x="-1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="3" y="10.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-10.8" x2="0.9" y2="10.8" layer="39"/>
+<circle x="3" y="11.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-10DS-0.5V">
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="-1.25" width="0.127" layer="51"/>
@@ -2231,9 +2231,9 @@
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="2.35" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-2.35" x2="-1.9" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-2.35" x2="1.9" y2="-1.25" width="0.127" layer="21"/>
-<circle x="-3" y="2.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
+<circle x="-3" y="2.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-14DS-0.5V">
 <wire x1="-1.9" y1="1.75" x2="-1.9" y2="-1.75" width="0.127" layer="51"/>
@@ -2264,8 +2264,8 @@
 <smd name="11" x="-1.8" y="-1" dx="1.6" dy="0.3" layer="1"/>
 <smd name="13" x="-1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="14" x="1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="2.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.55" x2="0.9" y2="2.55" layer="39"/>
+<circle x="-3" y="2.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-20DS-0.5V">
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="-2.5" width="0.127" layer="51"/>
@@ -2302,8 +2302,8 @@
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="3.6" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-3.6" x2="-1.9" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-3.6" x2="1.9" y2="-2.5" width="0.127" layer="21"/>
-<circle x="-3" y="3.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-3.3" x2="0.9" y2="3.3" layer="39"/>
+<circle x="-3" y="3.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-30DS-0.5V">
 <wire x1="-1.9" y1="3.75" x2="-1.9" y2="-3.75" width="0.127" layer="51"/>
@@ -2350,8 +2350,8 @@
 <smd name="28" x="1.8" y="-3" dx="1.6" dy="0.3" layer="1"/>
 <smd name="29" x="-1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="30" x="1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="4.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.55" x2="0.9" y2="4.55" layer="39"/>
+<circle x="-3" y="4.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-32DS-0.5V">
 <wire x1="-1.9" y1="4" x2="-1.9" y2="-4" width="0.127" layer="51"/>
@@ -2400,8 +2400,8 @@
 <smd name="30" x="1.8" y="-3.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="31" x="-1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="32" x="1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="4.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.8" x2="0.9" y2="4.8" layer="39"/>
+<circle x="-3" y="5.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-36DS-0.5V">
 <wire x1="-1.9" y1="4.5" x2="-1.9" y2="-4.5" width="0.127" layer="51"/>
@@ -2454,8 +2454,8 @@
 <smd name="34" x="1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="35" x="-1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="36" x="1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="5.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.3" x2="0.9" y2="5.3" layer="39"/>
+<circle x="-3" y="5.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-40DS-0.5V">
 <wire x1="-1.9" y1="5" x2="-1.9" y2="-5" width="0.127" layer="51"/>
@@ -2512,8 +2512,8 @@
 <smd name="38" x="1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="39" x="-1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="40" x="1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="5.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.8" x2="0.9" y2="5.8" layer="39"/>
+<circle x="-3" y="6.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-50DS-0.5V">
 <wire x1="-1.9" y1="6.25" x2="-1.9" y2="-6.25" width="0.127" layer="51"/>
@@ -2580,8 +2580,8 @@
 <smd name="48" x="1.8" y="-5.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="49" x="-1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
 <smd name="50" x="1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="7.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-7.05" x2="0.9" y2="7.05" layer="39"/>
+<circle x="-3" y="7.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-60DS-0.5V">
 <wire x1="-1.9" y1="7.5" x2="-1.9" y2="-7.5" width="0.127" layer="51"/>
@@ -2658,8 +2658,8 @@
 <smd name="58" x="1.8" y="-6.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="59" x="-1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="60" x="1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="8.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-8.3" x2="0.9" y2="8.3" layer="39"/>
+<circle x="-3" y="8.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12(*)-80DS-0.5V">
 <wire x1="-1.9" y1="10" x2="-1.9" y2="-10" width="0.127" layer="51"/>
@@ -2756,8 +2756,8 @@
 <smd name="78" x="1.8" y="-9.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="79" x="-1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="80" x="1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="10.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-10.8" x2="0.9" y2="10.8" layer="39"/>
+<circle x="-3" y="11.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12A(*)-10DS-0.5V">
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="-1.25" width="0.127" layer="51"/>
@@ -2782,9 +2782,9 @@
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="2.35" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-2.35" x2="-1.9" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-2.35" x2="1.9" y2="-1.25" width="0.127" layer="21"/>
-<circle x="-3" y="2.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
+<circle x="-3" y="2.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12A(*)-14DS-0.5V">
 <wire x1="-1.9" y1="1.75" x2="-1.9" y2="-1.75" width="0.127" layer="51"/>
@@ -2813,8 +2813,8 @@
 <smd name="11" x="-1.8" y="-1" dx="1.6" dy="0.3" layer="1"/>
 <smd name="13" x="-1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="14" x="1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="2.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.55" x2="0.9" y2="2.55" layer="39"/>
+<circle x="-3" y="2.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12A(*)-20DS-0.5V">
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="-2.5" width="0.127" layer="51"/>
@@ -2849,8 +2849,8 @@
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="3.6" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-3.6" x2="-1.9" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-3.6" x2="1.9" y2="-2.5" width="0.127" layer="21"/>
-<circle x="-3" y="3.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-3.3" x2="0.9" y2="3.3" layer="39"/>
+<circle x="-3" y="3.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12A(*)-30DS-0.5V">
 <wire x1="-1.9" y1="3.75" x2="-1.9" y2="-3.75" width="0.127" layer="51"/>
@@ -2895,8 +2895,8 @@
 <smd name="28" x="1.8" y="-3" dx="1.6" dy="0.3" layer="1"/>
 <smd name="29" x="-1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="30" x="1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="4.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.55" x2="0.9" y2="4.55" layer="39"/>
+<circle x="-3" y="4.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12A(*)-32DS-0.5V">
 <wire x1="-1.9" y1="4" x2="-1.9" y2="-4" width="0.127" layer="51"/>
@@ -2943,8 +2943,8 @@
 <smd name="30" x="1.8" y="-3.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="31" x="-1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="32" x="1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="4.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.8" x2="0.9" y2="4.8" layer="39"/>
+<circle x="-3" y="5.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12A(*)-36DS-0.5V">
 <wire x1="-1.9" y1="4.5" x2="-1.9" y2="-4.5" width="0.127" layer="51"/>
@@ -2995,8 +2995,8 @@
 <smd name="34" x="1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="35" x="-1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="36" x="1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="5.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.3" x2="0.9" y2="5.3" layer="39"/>
+<circle x="-3" y="5.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12A(*)-40DS-0.5V">
 <wire x1="-1.9" y1="5" x2="-1.9" y2="-5" width="0.127" layer="51"/>
@@ -3051,8 +3051,8 @@
 <smd name="38" x="1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="39" x="-1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="40" x="1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="5.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.8" x2="0.9" y2="5.8" layer="39"/>
+<circle x="-3" y="6.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12A(*)-50DS-0.5V">
 <wire x1="-1.9" y1="6.25" x2="-1.9" y2="-6.25" width="0.127" layer="51"/>
@@ -3117,8 +3117,8 @@
 <smd name="48" x="1.8" y="-5.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="49" x="-1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
 <smd name="50" x="1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="7.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-7.05" x2="0.9" y2="7.05" layer="39"/>
+<circle x="-3" y="7.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12A(*)-60DS-0.5V">
 <wire x1="-1.9" y1="7.5" x2="-1.9" y2="-7.5" width="0.127" layer="51"/>
@@ -3193,8 +3193,8 @@
 <smd name="58" x="1.8" y="-6.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="59" x="-1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="60" x="1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="8.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-8.3" x2="0.9" y2="8.3" layer="39"/>
+<circle x="-3" y="8.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12A(*)-80DS-0.5V">
 <wire x1="-1.9" y1="10" x2="-1.9" y2="-10" width="0.127" layer="51"/>
@@ -3289,8 +3289,8 @@
 <smd name="78" x="1.8" y="-9.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="79" x="-1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="80" x="1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="10.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-10.8" x2="0.9" y2="10.8" layer="39"/>
+<circle x="-3" y="11.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-10DS-0.5V">
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="-1.25" width="0.127" layer="51"/>
@@ -3315,9 +3315,9 @@
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="2.35" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-2.35" x2="-1.9" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-2.35" x2="1.9" y2="-1.25" width="0.127" layer="21"/>
-<circle x="-3" y="2.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
+<circle x="-3" y="2.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-14DS-0.5V">
 <wire x1="-1.9" y1="1.75" x2="-1.9" y2="-1.75" width="0.127" layer="51"/>
@@ -3346,8 +3346,8 @@
 <smd name="11" x="-1.8" y="-1" dx="1.6" dy="0.3" layer="1"/>
 <smd name="13" x="-1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="14" x="1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="2.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.55" x2="0.9" y2="2.55" layer="39"/>
+<circle x="-3" y="2.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-20DS-0.5V">
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="-2.5" width="0.127" layer="51"/>
@@ -3382,8 +3382,8 @@
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="3.6" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-3.6" x2="-1.9" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-3.6" x2="1.9" y2="-2.5" width="0.127" layer="21"/>
-<circle x="-3" y="3.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-3.3" x2="0.9" y2="3.3" layer="39"/>
+<circle x="-3" y="3.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-30DS-0.5V">
 <wire x1="-1.9" y1="3.75" x2="-1.9" y2="-3.75" width="0.127" layer="51"/>
@@ -3428,8 +3428,8 @@
 <smd name="28" x="1.8" y="-3" dx="1.6" dy="0.3" layer="1"/>
 <smd name="29" x="-1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="30" x="1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="4.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.55" x2="0.9" y2="4.55" layer="39"/>
+<circle x="-3" y="4.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-32DS-0.5V">
 <wire x1="-1.9" y1="4" x2="-1.9" y2="-4" width="0.127" layer="51"/>
@@ -3476,8 +3476,8 @@
 <smd name="30" x="1.8" y="-3.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="31" x="-1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="32" x="1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="4.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.8" x2="0.9" y2="4.8" layer="39"/>
+<circle x="-3" y="5.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-36DS-0.5V">
 <wire x1="-1.9" y1="4.5" x2="-1.9" y2="-4.5" width="0.127" layer="51"/>
@@ -3528,8 +3528,8 @@
 <smd name="34" x="1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="35" x="-1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="36" x="1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="5.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.3" x2="0.9" y2="5.3" layer="39"/>
+<circle x="-3" y="5.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-40DS-0.5V">
 <wire x1="-1.9" y1="5" x2="-1.9" y2="-5" width="0.127" layer="51"/>
@@ -3584,8 +3584,8 @@
 <smd name="38" x="1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="39" x="-1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="40" x="1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="5.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.8" x2="0.9" y2="5.8" layer="39"/>
+<circle x="-3" y="6.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-50DS-0.5V">
 <wire x1="-1.9" y1="6.25" x2="-1.9" y2="-6.25" width="0.127" layer="51"/>
@@ -3650,8 +3650,8 @@
 <smd name="48" x="1.8" y="-5.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="49" x="-1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
 <smd name="50" x="1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="7.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-7.05" x2="0.9" y2="7.05" layer="39"/>
+<circle x="-3" y="7.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-60DS-0.5V">
 <wire x1="-1.9" y1="7.5" x2="-1.9" y2="-7.5" width="0.127" layer="51"/>
@@ -3726,8 +3726,8 @@
 <smd name="58" x="1.8" y="-6.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="59" x="-1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="60" x="1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="8.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-8.3" x2="0.9" y2="8.3" layer="39"/>
+<circle x="-3" y="8.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12B(*)-80DS-0.5V">
 <wire x1="-1.9" y1="10" x2="-1.9" y2="-10" width="0.127" layer="51"/>
@@ -3822,8 +3822,8 @@
 <smd name="78" x="1.8" y="-9.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="79" x="-1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="80" x="1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="10.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-10.8" x2="0.9" y2="10.8" layer="39"/>
+<circle x="-3" y="11.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12C(*)-10DS-0.5V">
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="-1.25" width="0.127" layer="51"/>
@@ -3846,9 +3846,9 @@
 <wire x1="-1.9" y1="1.25" x2="-1.9" y2="2.35" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-2.35" x2="-1.9" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-2.35" x2="1.9" y2="-1.25" width="0.127" layer="21"/>
-<circle x="-3" y="2.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
 <rectangle x1="-0.9" y1="-2.05" x2="0.9" y2="2.05" layer="39"/>
+<circle x="-3" y="2.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12C(*)-14DS-0.5V">
 <wire x1="-1.9" y1="1.75" x2="-1.9" y2="-1.75" width="0.127" layer="51"/>
@@ -3875,8 +3875,8 @@
 <smd name="11" x="-1.8" y="-1" dx="1.6" dy="0.3" layer="1"/>
 <smd name="13" x="-1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="14" x="1.8" y="-1.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="2.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-2.55" x2="0.9" y2="2.55" layer="39"/>
+<circle x="-3" y="2.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12C(*)-20DS-0.5V">
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="-2.5" width="0.127" layer="51"/>
@@ -3909,8 +3909,8 @@
 <wire x1="-1.9" y1="2.5" x2="-1.9" y2="3.6" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="-3.6" x2="-1.9" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-3.6" x2="1.9" y2="-2.5" width="0.127" layer="21"/>
-<circle x="-3" y="3.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-3.3" x2="0.9" y2="3.3" layer="39"/>
+<circle x="-3" y="3.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12C(*)-30DS-0.5V">
 <wire x1="-1.9" y1="3.75" x2="-1.9" y2="-3.75" width="0.127" layer="51"/>
@@ -3953,8 +3953,8 @@
 <smd name="28" x="1.8" y="-3" dx="1.6" dy="0.3" layer="1"/>
 <smd name="29" x="-1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="30" x="1.8" y="-3.5" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="4.55" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.55" x2="0.9" y2="4.55" layer="39"/>
+<circle x="-3" y="4.85" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12C(*)-32DS-0.5V">
 <wire x1="-1.9" y1="4" x2="-1.9" y2="-4" width="0.127" layer="51"/>
@@ -3999,8 +3999,8 @@
 <smd name="30" x="1.8" y="-3.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="31" x="-1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="32" x="1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="4.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-4.8" x2="0.9" y2="4.8" layer="39"/>
+<circle x="-3" y="5.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12C(*)-36DS-0.5V">
 <wire x1="-1.9" y1="4.5" x2="-1.9" y2="-4.5" width="0.127" layer="51"/>
@@ -4049,8 +4049,8 @@
 <smd name="34" x="1.8" y="-3.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="35" x="-1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="36" x="1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="5.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.3" x2="0.9" y2="5.3" layer="39"/>
+<circle x="-3" y="5.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12C(*)-40DS-0.5V">
 <wire x1="-1.9" y1="5" x2="-1.9" y2="-5" width="0.127" layer="51"/>
@@ -4103,8 +4103,8 @@
 <smd name="38" x="1.8" y="-4.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="39" x="-1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="40" x="1.8" y="-4.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="5.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-5.8" x2="0.9" y2="5.8" layer="39"/>
+<circle x="-3" y="6.1" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12C(*)-50DS-0.5V">
 <wire x1="-1.9" y1="6.25" x2="-1.9" y2="-6.25" width="0.127" layer="51"/>
@@ -4167,8 +4167,8 @@
 <smd name="48" x="1.8" y="-5.5" dx="1.6" dy="0.3" layer="1"/>
 <smd name="49" x="-1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
 <smd name="50" x="1.8" y="-6" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="7.05" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-7.05" x2="0.9" y2="7.05" layer="39"/>
+<circle x="-3" y="7.35" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12C(*)-60DS-0.5V">
 <wire x1="-1.9" y1="7.5" x2="-1.9" y2="-7.5" width="0.127" layer="51"/>
@@ -4241,8 +4241,8 @@
 <smd name="58" x="1.8" y="-6.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="59" x="-1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="60" x="1.8" y="-7.25" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="8.3" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-8.3" x2="0.9" y2="8.3" layer="39"/>
+<circle x="-3" y="8.6" radius="0.3" width="0" layer="21"/>
 </package>
 <package name="DF12C(*)-80DS-0.5V">
 <wire x1="-1.9" y1="10" x2="-1.9" y2="-10" width="0.127" layer="51"/>
@@ -4335,8 +4335,8 @@
 <smd name="78" x="1.8" y="-9.25" dx="1.6" dy="0.3" layer="1"/>
 <smd name="79" x="-1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
 <smd name="80" x="1.8" y="-9.75" dx="1.6" dy="0.3" layer="1"/>
-<circle x="-3" y="10.8" radius="0.1" width="0.3048" layer="21"/>
 <rectangle x1="-0.9" y1="-10.8" x2="0.9" y2="10.8" layer="39"/>
+<circle x="-3" y="11.1" radius="0.3" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
